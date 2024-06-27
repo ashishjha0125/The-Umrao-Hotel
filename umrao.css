@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.body{
+  
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+}
+.backimage{
+    width: 42.3cm;
+    background-position: center;
+    margin-top: -71px;
+    margin-left: -9px;
+    height: 16cm;
+    margin-bottom: 10px;
+}
+.frontimage{
+    height: 60px;
+    margin-right: 64px;
+    margin-left: -9px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-bottom: 30px;
+    border-color: gray;
+   
+  
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 92px;
+    position: absolute;
+
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+}
+  
+.header{
+    position: absolute;
+}
+.style a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.style{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.bomb{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: white;
+    height: 10px;
+    position: absolute;
+}
+.style a:hover{
+    color: rgb(195, 168, 13);
+    transition: 0.3s;
+}
+.quote{
+    margin-top: -241px;
+    margin-left: 348px;
+}
+.quote p{
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+.quote button{
+    width: 116px;
+    height: 52px;
+    margin-left: 357px;
+    background-color: #c49b63;
+    border-style: solid;
+   border: 1px solid #c49b63;;
+}
+.quote button:hover{
+    color:  #c49b63;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.information{
+   margin-top: 130px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-left: -66px;
+}
+
+.redifines{
+    font-size: 49px;
+    margin-bottom: 5px;
+    font-family:  "Great Vibes", cursive;
+    color: #c49b63;
+}
+.experience{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 6px;
+    font-weight: bolder;
+}
+.discription{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-top: -13px;
+    margin-left: 14px;
+}
+.extra{
+    font-size: 15px;
+    font-size: 14px;
+    margin-left: 143px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.facility{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 66px;
+    margin-left: 84px;
+    row-gap: 87px;
+    align-items: center;
+    margin-right: 143px;
+}
+.box{
+    border-bottom: 0.5px solid rgb(154, 150, 150);
+    border-right: 0.5px solid rgb(154, 150, 150);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      flex-shrink: 0;
+      cursor: pointer;
+}
+.box:hover{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.facility h3{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(138, 131, 131);
+}
+.information{
+    margin-left: -23px;
+}
+.view_capaicity{
+    margin-top: 50px;
+    height: 50px;
+    width: 149px;
+    margin-left: 18.69cm;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #e3bb83;
+    color: #c49b63;
+    margin-left: 18.3cm;
+}
+.view_capaicity:hover{
+    color: #ffffff;
+    background-color:#c49b63 ;
+    transition: 0.5s;
+    
+    cursor: pointer;
+}
+.footer{
+    margin-top: 115px;
+    background-color: black;
+    height: 12cm;
+    width: 42cm;
+    margin-left: -8px;
+    color: white;
+}
+.dropbtn{
+    background-color: transparent;
+    border-style: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 0px;
+   
+}
+    .button{
+        background-color:transparent;
+        border: none;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.dropdown-content a :hover{
+    background-color: white;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+.image_logo{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-right: 16px;
+    border-color: white;
+    border: 2px solid;
+    cursor: pointer;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: #120f0f;
+    
+}
+    .newletter{
+        font-size: 17px;
+        font-family: "Josefin Sans", Arial, sans-serif;
+        padding-top: 40px;
+        letter-spacing: 2px;
+    }
+    .left_section{
+        margin-left: 150px;
+    }
+    .subscribe{
+        height: 50px;
+        width: 150px;
+        border-radius: 25px;
+        background-color: white;
+        border-style: none;
+        border-color: white ;
+        margin-left: 20px;
+        font-size: 13px;
+        font-family: "Poppins", Arial, sans-serif;
+    }
+    .subscribe:hover{
+        
+    color: #ce9f5e;
+    transition: 0.5s;
+    
+    cursor: pointer;
+    }
+    .email{
+        border-style: none;
+        background-color: transparent;
+      border-bottom:   0.5px solid rgb(154, 150, 150);
+        color: white;
+        padding-bottom: 6px;
+        width: 8cm;
+        font-size: 14px;
+        outline: none;
+        
+    }
+    .email::placeholder{
+        color: white;
+        font-family: inherit;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        
+    }
+    .copyright{
+        margin-top: 120px;
+        font-family: "Poppins", Arial, sans-serif;
+        color: rgba(185, 163, 163, 0.7);
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        cursor: pointer;
+       
+
+    }
+    .logo{
+        margin-top: -17px;
+    }
+    .right{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+    .right_section{
+        margin-top: 40px;
+    }
+    .about a{
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        margin-bottom: 20px;
+        font-family: "Poppins", Arial, sans-serif;
+    }
+    .about a:hover{
+color: white;
+    }
+    .privacy{
+        font-family: "Poppins", Arial, sans-serif;
+        color: rgba(185, 163, 163, 0.7);
+        font-size: 15px;
+        margin-top: 120px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
